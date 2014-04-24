@@ -14,7 +14,7 @@ using ExcelLibrary.SpreadSheet;
 // Add references:
 // ExcelLibrary.dll - https://code.google.com/p/excellibrary/
 
-namespace KESZ_Kalkulator
+namespace KESZ_Kalkulator    
 {
   class Program
   {
