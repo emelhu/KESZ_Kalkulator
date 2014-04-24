@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KESZ_Kalkulator", "KESZ_Kalkulator.csproj", "{1B92D3AA-8152-49BA-869C-7CBE0A96119B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C98D4551-7C67-477B-9188-5B4B41CB378A} = {C98D4551-7C67-477B-9188-5B4B41CB378A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbfReader", "..\..\Commons\NDbfReader\NDbfReader.csproj", "{C98D4551-7C67-477B-9188-5B4B41CB378A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B92D3AA-8152-49BA-869C-7CBE0A96119B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B92D3AA-8152-49BA-869C-7CBE0A96119B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B92D3AA-8152-49BA-869C-7CBE0A96119B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B92D3AA-8152-49BA-869C-7CBE0A96119B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98D4551-7C67-477B-9188-5B4B41CB378A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98D4551-7C67-477B-9188-5B4B41CB378A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98D4551-7C67-477B-9188-5B4B41CB378A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98D4551-7C67-477B-9188-5B4B41CB378A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
